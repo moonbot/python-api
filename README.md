@@ -53,10 +53,18 @@ Integration and unit tests are provided.
 
 ## Changelog
 
-**v3.0.24 - TBD**
+**v3.0.26 - TBD**
 
-   + TBD
+**v3.0.25 - 2016 Jan 12**
 
+   + Add handling for Python versions incompatible with SHA-2 (see http://blog.shotgunsoftware.com/2016/01/important-ssl-certificate-renewal-and.html).
+   + Add SHOTGUN_FORCE_CERTIFICATE_VALIDATION environment variable to prevent disabling certficate validation when SHA-2 validation is not available.
+   + Add SSL info to user-agent header.
+
+**v3.0.24 - 2016 Jan 08**
+
+   + Not released.
+     
 **v3.0.23 - 2015 Oct 26**
 
    + Fix for python bug on Windows loading mimetypes module (http://bugs.python.org/issue23371) thanks to @patrickwolf.
